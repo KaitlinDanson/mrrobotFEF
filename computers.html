@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Mr Robot!</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css" />
+<link rel="stylesheet" href="styles.css" type="text/css"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+  <body>
+    <header>
+        <div>
+            <a class="headerlogo" href="index.html">
+                <img id="logo" src="images/logo.jpg" />
+            </a>
+            <span id="headername">Mr. Robot</span>
+            <input type="search" class="searchbox" placeholder="Search our store" />
+        </div>
+
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+           <div class="container">
+             <div class="navbar-header">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                 <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand" href="index.html">Home</a>
+                       </div>
+                       <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li><a class="navlink" href="robots.html"  data-toggle="collapse" data-target=".navbar-collapse.in" >Robots</a></li>
+              <li><a class="navlink" href="computers.html"  data-toggle="collapse" data-target=".navbar-collapse.in">Hardware</a></li>
+              <li><a class="navlink" href="contact.html"  data-toggle="collapse" data-target=".navbar-collapse.in">Contact</a></li>
+              <li><a class="navlink" href="about.html"  data-toggle="collapse" data-target=".navbar-collapse.in">About</a></li>
+            </ul>
+          </div>
+  </div>
+
+        </nav>
+    </header>
+
+    <form>
+      <fieldset id="CPU1">
+        <legend>Select a CPU</legend>
+        <p><label for="i3"><input type="radio" name="CPU" id="i3">Intel i3</label></p>
+        <p><label for="i4"><input type="radio" name="CPU" id="i4"></label>Intel i4</p>
+        <p><label for="i7"><input type="radio" name="CPU" id="i7"></label>Intel i7</p>
+      </fieldset>
+  <fieldset id="RAM1">
+    <legend>Select Ram</legend>
+    <p><label for="8"><input type="radio" name="ram" id="8">8gig</label></p>
+    <p><label for="16"><input type="radio" name="ram" id="16">16gig</label></p>
+  </fieldset>
+    <fieldset id="OTHER1">
+      <legend></legend>
+
+      <p><label for="vrh"><input type="checkbox" name="" id="vrh">Virtual Reality Helmet</label></p>
+      <p><label for="3ds"><input type="checkbox" name="" id="3ds">3D Screen</label></p>
+      <p><label for="ss"><input type="checkbox" name="" id="ss">Stereo Speakers</label></p>
+    </fieldset>
+  <p>
+    <button>Submit</button>
+  </p>
+</form>
+<footer>
+  <p>Our address is <address>1011 Crater Ave, Moon City: THE MOON</address></p>
+  <p class="textcontent">All site contents is copyright <a class="mainlink" href="http://www.mrrobot.com">Mr Robot!</a></p>
+  <p class="smalltext">This page was generated on <time>09:25:04.123</time>.</p>
+</footer>
+
+
+    <script src="script.js">
+
+    </script>
+
+    <!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>

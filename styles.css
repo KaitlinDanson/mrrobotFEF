@@ -1,0 +1,210 @@
+#logo {
+  width: 10%;
+  height: 10%;
+  position: relative;
+top: 50px;
+}
+
+#headername {
+  font-size: 74px;
+  display: block;
+  top: 50px;
+  text-align: center;
+
+}
+
+.searchbox {
+position: relative;
+display:block;
+  float: right;
+  top: -150px;
+}
+
+nav ul {
+  list-style:none;
+  padding: 0px;
+}
+
+nav ul li {
+  display: block;
+}
+
+nav ul li > a {
+  text-decoration: none;
+}
+
+nav ul li > a:hover {
+  text-decoration: underline;
+  background-color: grey;
+}
+
+.navbar-background {
+  background-color: #E70909;
+}
+
+.navlink {
+  height: 35px;
+  margin-right: 10px;
+  font-size: 24px;
+  display: inline-block;
+  float: left;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 12px;
+  color: black;
+  text-decoration: none;
+}
+
+.navlink.active {
+  color: red;
+  background-color: grey;
+}
+
+
+#welcomeimage {
+  position:relative;
+  top: 100px;
+}
+
+footer {
+  background-color: lightgrey;
+  display: block;
+  font-size: 10px;
+  text-align: center;
+
+}
+
+#address {
+  font-size: 12px;
+}
+
+
+/*#twocolumns {
+  column-count: 2;
+}*/
+/* commented out because switched to bootstrap columns */
+
+legend {
+  outline-style: none;
+}
+
+#robo1 {
+  font-family: arial;
+
+
+}
+
+#imgrobo1 {
+  width: 100px;
+  height: 100px;
+}
+
+#robo1:hover {
+  background-color: lightblue;
+}
+
+#robo2 {
+  font-family: arial;
+}
+
+#imgrobo2 {
+  width: 100px;
+  height: 100px;
+}
+
+#robo2:hover {
+background-color: lightblue;
+}
+
+#robo3 {
+  font-family: arial;
+}
+
+#imgrobo3 {
+  width: 100px;
+  height: 100px;
+}
+
+#robo3:hover {
+  background-color: lightblue;
+}
+
+form {
+  font-family: arial;
+ color: purple;
+
+
+}
+
+#history {
+  font-family: arial;
+}
+
+fieldset {
+  border: none;
+}
+
+ #fullname:hover {
+  background-color:lightblue;
+}
+#email:hover {
+  background-color: lightblue;
+}
+#yloc:hover {
+  background-color:lightblue;
+}
+
+#textarea1:hover {
+  background-color: lightblue;
+}
+
+
+#CPU1:hover {
+  background-color: lightblue;
+}
+
+#RAM1:hover {
+  background-color: lightblue;
+}
+#OTHER1:hover {
+  background-color:lightblue;
+}
+
+#robotlist {
+  list-style: none;
+}
+
+#homewelcomeimage {
+  width: 450px;
+  height: 250px;
+  margin: 115px auto;
+  display: block;
+}
+
+
+#robothello {
+  width: auto;
+  height: 100px;
+  display: block;
+  float: left;
+
+}
+
+section {
+  background-color: lavender;
+}
+
+#note {
+  background-color: lavender;
+
+}
+
+#aboutwelcomeimage {
+  display:block;
+  margin: 130px auto;
+}
+
+#somediv {
+  background-color: lavender;
+  color: purple;
+}
